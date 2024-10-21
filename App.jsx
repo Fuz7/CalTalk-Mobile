@@ -1,12 +1,11 @@
 import { StatusBar } from "expo-status-bar";
-import { SafeAreaView, Text, View } from "react-native";
-import styles from "./styles";
+import { SafeAreaView, } from "react-native";
+import styles from "./src/styles";
+import Title from "./src/components/Title";
 export default function App() {
   return (
     <SafeAreaView style={styles.container}>
-      <View style={styles.titleContainer}>
-        <Text style={styles.title}>Cal Talk</Text>
-      </View>
+      <Title />
       <StatusBar style="auto" />
     </SafeAreaView>
   );
