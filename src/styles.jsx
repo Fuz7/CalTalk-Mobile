@@ -32,4 +32,49 @@ export default StyleSheet.create({
     // Android Shadow
     elevation: 6,
   },
+  togglersContainer: {
+    flex: 1,
+    flexDirection: "row",
+    alignItems: 'center',
+    maxHeight: 42,
+    justifyContent: "space-between",
+    width: "100%",
+    paddingHorizontal: 25,
+    marginTop: 70,
+  
+  },
+
+  instructionContainer: {
+    width: 114,
+    height: 42,
+    backgroundColor: "#664229",
+    alignItems:'center',
+    justifyContent:'center',
+    borderRadius:8,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.65,
+    shadowRadius: 3.5,
+    elevation: 9, 
+  },
+
+  instructionText: {
+    fontSize: 16,
+    color: "white",
+    textAlign:'center'
+  },
+  
+  languageContainer:{
+    width: 105,
+    height:41,
+    borderRadius: 5, 
+    backgroundColor: 'white',
+    alignItems:'flex-start',
+    justifyContent:'center',
+    paddingLeft: 11,
+  },
+  languageText:{
+    fontSize:16,
+    fontWeight: 'bold'
+  }
 });
