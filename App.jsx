@@ -1,4 +1,4 @@
-import Instruction from './src/components/Instruction';
+import Instruction from "./src/components/Instruction";
 import { StatusBar } from "expo-status-bar";
 import { SafeAreaView, View, TouchableOpacity, Text } from "react-native";
 import styles from "./src/styles";
@@ -8,10 +8,9 @@ export default function App() {
     <SafeAreaView style={styles.container}>
       <Title />
       <View style={styles.togglersContainer}>
-      <Instruction />
+        <Instruction />
         <TouchableOpacity style={styles.languageContainer}>
           <Text style={styles.languageText}>English</Text>
-          
         </TouchableOpacity>
       </View>
       <StatusBar style="auto" />
